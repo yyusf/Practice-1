@@ -1,0 +1,80 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+/*	background: url(mountain.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+.img{
+	background-image: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height:100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  filter: grayscale(0.2) brightness(90%);
+}
+
+.nav {
+	position: fixed;
+}
+
+.title{
+	color: white; 
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-weight: 300;
+	position: fixed;
+	top: 18%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=19, Direction=63, Color=#000000)";/*IE 8*/
+text-shadow: -11px 22px 19px rgba(0,0,0,0.6);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=19, Direction=135, Color=#000000); /*IE 5.5-7*/
+
+}
+
+.subtitle{
+	color:white;
+	font-size: 15pt;
+	letter-spacing: 1px;
+	position: relative;
+}
+.description{
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: fixed;
+	bottom: 10px;
+	width: 80%;
+	font-size: 15px;
+	text-align: left;
+
+}
+.line{
+	width:50%;
+	text-align:left;
+	margin-left:0;
+	color: blue;
+}
+hr{
+	border: 0;
+  width: 40%;
+  color: #f00;
+background-color: #f00;
+height: 2px;
+position: relative;
+right: 230px
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
+
+
+
