@@ -70,8 +70,8 @@ hr{
   color: #f00;
 background-color: #f00;
 height: 2px;
-position: fixed;
-bottom: 106;
+position: relative;
+right: 190px
 }
 
 ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
